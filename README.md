@@ -5,9 +5,9 @@ springboot自定义观察者模式的starter，开箱即用
 2、在需要使用的项目中引入，maven坐标如下：
 ```xml
 <dependency>
-			<groupId>cn.com.sweetcandy</groupId>
-			<artifactId>observer-spring-boot-stater</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+	<groupId>cn.com.sweetcandy</groupId>
+	<artifactId>observer-spring-boot-stater</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 3、配置properties文件开启观察者模式自动扫描：
