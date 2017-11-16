@@ -74,7 +74,7 @@ public class Observer {
 			return;
 		}
 		Handel<Event> handel = HANDELS.get(enevtType);
-		if (StringUtils.isEmpty(handel)) {
+		if (!StringUtils.isEmpty(handel)) {
 			handel.handel(event);
 		}
 	}
